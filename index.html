@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Ganjastic - Mockup</title>
+        <link rel="stylesheet" href="static/css/main.css" type="text/css" media="screen" title="no title" charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <!-- Navigation -->
+            <nav id="navbar" class="flex gradient navbar">
+                <div class="flex menubar container">
+                    <!-- Menu Button -->
+                    <button id="navToggle" class="navicon mobile-nav-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                    <!-- Logo -->
+                    <a href="" class="navlink"><h1>Ganjastic</h1></a>
+                    <!-- Search Button -->
+                    <button id="searchToggle" class="navicon searchToggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"></path>
+                        </svg>
+                    </button>
+                </div>
+                <!-- Primary Menu list -->
+                <ul id="primaryNav" data-visible="false" class="primary-navigation flex gradient">
+                   <li class="active">
+                       <!-- Navigation link goes here -->
+                       <a href="" class="navlink active">Home</a>
+                   </li>
+                   <li>
+                       <!-- Navigation link goes here -->
+                       <a href="" class="navlink">Reviews</a>
+                   </li>
+                   <li>
+                       <!-- Navigation link goes here -->
+                       <a href="" class="navlink">Culture</a>
+                   </li>
+                   <li>
+                       <!-- Navigation link goes here -->
+                       <a href="" class="navlink">Blog</a>
+                   </li>
+                   <li>
+                       <!-- Navigation link goes here -->
+                       <a href="" class="navlink">FAQ</a>
+                   </li>
+                   <li>
+                       <!-- Navigation link goes here -->
+                       <a href="" class="navlink">Contact</a>
+                   </li>
+                </ul>
+                <!-- Search Box -->
+                <div id="searchBox" class="searchBox gradient flex" data-visible="false">
+                    <button id="searchClear" class="searchClear"><span class="navlink">x</span></button>
+
+                    <input class="searchInput" type="search" value="" placeholder="Search..." name="q" id="q"/>
+                    <button class="searchSubmit">
+                        <spa class="navlink">Go</span>
+                    </button>
+
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="container main-container">
+                <!-- Featured Section -->
+                <section class="featured-section">
+                    <div class="default-grid grid">
+                    <!-- Featured article card -->
+                        <div class="article-card grid stacked">
+                                <!-- Image goes here -->
+                            <a href=""><img class="article-card--image" src="static/img/024-sm.jpg" alt=""></a>
+                            <div class="article-card-content">
+                                    <!-- Title goes here -->
+                                <a href=""><h3 class="article-card-title">Best Bongs for 2022</h3></a>
+                                    <!-- Subtitle goes here -->
+                                    <div class="article-card-content-minor">
+
+                                        <p class="article-card-subtitle">Bong buying guide for any budget</p>
+                                        <div class="article-card-info">
+                                            <!-- Date goes here -->
+                                            <span class="date">Jan 7 2022</span>
+                                            <!-- Tags go here -->
+                                            <div class="tag-container">
+                                            <a href=""><span class="tag">Bongs</span></a>
+                                            <a href=""><span class="tag">Reviews</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <!-- Cards after featured card -->
+                        <!-- Another article card -->
+                        <div class="article-card grid stacked">
+                                <!-- Image goes here -->
+                            <a href=""><img class="article-card--image" src="static/img/007-sm.jpg" alt=""></a>
+                            <div class="article-card-content">
+                                    <!-- Title goes here -->
+                                <a href=""><h3 class="article-card-title">Top Breeds for Experienced Consumers</h3></a>
+                                    <!-- Subtitle goes here -->
+                                <div class="article-card-content-minor">
+                                    <p class="article-card-subtitle">Complete comparison of 10 best selling strains in California</p>
+                                    <div class="article-card-info">
+                                        <!-- Date goes here -->
+                                        <span class="date">Jan 1 2022</span>
+                                        <!-- Tags go here -->
+                                        <div class="tag-container">
+                                        <a href=""><span class="tag">Reviews</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Another article card -->
+                        <div class="article-card grid stacked">
+                                <!-- Image goes here -->
+                            <a href=""><img class="article-card--image" src="static/img/023-sm.jpg" alt=""></a>
+                            <div class="article-card-content">
+                                    <!-- Title goes here -->
+                                <a href=""><h3 class="article-card-title">Getting Started with Bongs and Pipes</h3></a>
+                                <div class="article-card-content-minor">
+                                        <!-- Subtitle goes here -->
+                                    <p class="article-card-subtitle">Complete beginner's guide to bongs, pipes and other cannabis paraphernalia</p>
+                                    <div class="article-card-info">
+                                        <!-- Date goes here -->
+                                        <span class="date">Dec 28 2021</span>
+                                        <!-- Tags go here -->
+                                        <div class="tag-container">
+                                        <a href=""><span class="tag">Bongs</span></a>
+                                        <a href=""><span class="tag">Guide</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Another article card -->
+                        <div class="article-card grid stacked">
+                                <!-- Image goes here -->
+                            <a href=""><img class="article-card--image" src="static/img/022-sm.jpg" alt=""></a>
+                            <div class="article-card-content">
+                                    <!-- Title goes here -->
+                                <a href=""><h3 class="article-card-title">Best Grinders for 2022</h3></a>
+                                    <!-- Subtitle goes here -->
+                            <div class="article-card-content-minor">
+                                <a href=""><p class="article-card-subtitle">A quick guide for your daily grind!</p></a>
+                                <div class="article-card-info">
+                                    <!-- Date goes here -->
+                                    <span class="date">Dec 28 2021</span>
+                                    <!-- Tags go here -->
+                                    <div class="tag-container">
+                                    <a href=""><span class="tag">Grinders</span></a>
+                                    <a href=""><span class="tag">Reviews</span></a>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Another article card -->
+                        <div class="article-card grid stacked">
+                                <!-- Image goes here -->
+                            <a href=""><img class="article-card--image" src="static/img/006-sm.jpg" alt=""></a>
+                            <div class="article-card-content">
+                                <!-- Title goes here -->
+                                <a href=""><h3 class="article-card-title">Cannabis for Complete Noobs</h3></a>
+                                    <!-- Subtitle goes here -->
+                                <div class="article-card-content-minor">
+                                    <p class="article-card-subtitle">A step by step guide to get you rolling!</p>
+                                    <div class="article-card-info">
+                                        <!-- Date goes here -->
+                                        <span class="date">Dec 21 2022</span>
+                                        <div class="tag-container">
+
+                                        <!-- Tags go here -->
+                                        <a href=""><span class="tag">Guide</span></a>
+                                        <a href=""><span class="tag">Beginner</span></a>
+                                        <a href=""><span class="tag">Cannabis</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Double Section #1 -->
+                <div class="section-container grid">
+                    <!-- Section #1 -->
+                    <section class="article-section" >
+                        <h2 class="main-section-heading"><a href="">Reviews</a></h2>
+                        <div class="default-grid grid">                    
+                            <!-- Another horizontal article card -->
+                            <div class="article-card grid stacked">
+                                    <!-- Image goes here -->
+                                <a href=""><img class="article-card--image" src="static/img/clear-cannabis-QckzT2c1ICs-unsplash.jpg" alt=""></a>
+                                <div class="article-card-content">
+                                        <!-- Title goes here -->
+                                    <a href=""><h3 class="article-card-title">Best Vaporizers for 2022</h3></a>
+                                        <!-- Subtitle goes here -->
+                                    <div class="article-card-content-minor">
+                                        <p class="article-card-subtitle">Best vaporizer brands reviewed</p>
+                                        <div class="article-card-info">
+                                            <!-- Date goes here -->
+                                            <span class="date">Jan 9 2022</span>
+                                            <!-- Tags go here -->
+                                            <div class="tag-container">
+                                            <span class="tag">Reviews</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                    
+                        
+                            <!-- Another horizontal article card -->
+                            <div class="horizontal-article-card grid">
+                                    <!-- Image goes here -->
+                                <a href=""><img class="article-card--image" src="static/img/024-sm.jpg" alt=""></a>
+                                <div class="article-card-content">
+                                        <!-- Title goes here -->
+                                    <a href=""><h3 class="article-card-title">Best Bongs for 2022</h3></a>
+                                        <!-- Subtitle goes here -->
+                                    <div class="article-card-content-minor">
+                                        <p class="article-card-subtitle">Bong buying guide for any budget</p>
+                                        <div class="article-card-info">
+                                            <!-- Date goes here -->
+                                            <span class="date">Jan 7 2022</span>
+                                            <!-- Tags go here -->
+                                            <div class="tag-container">
+                                            <a href=""><span class="tag">Bongs</span></a>
+                                            <a href=""><span class="tag">Reviews</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <!-- Another horizontal article card -->
+                            <div class="horizontal-article-card grid">
+                                    <!-- Image goes here -->
+                                <a href=""><img class="article-card--image" src="static/img/007-sm.jpg" alt=""></a>
+                                <div class="article-card-content">
+                                        <!-- Title goes here -->
+                                    <a href=""><h3 class="article-card-title">Top Breeds for Experienced Consumers</h3></a>
+                                        <!-- Subtitle goes here -->
+                                    <div class="article-card-content-minor">
+                                        <p class="article-card-subtitle">Complete comparison of 10 best selling strains in California</p>
+                                        <div class="article-card-info">
+                                            <!-- Date goes here -->
+                                            <span class="date">Jan 1 2022</span>
+                                            <!-- Tags go here -->
+                                            <div class="tag-container">
+                                                <a href=""><span class="tag">Reviews</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                    
+                        
+                            <!-- Another horizontal article card -->
+                            <div class="horizontal-article-card grid">
+                                    <!-- Image goes here -->
+                                <img class="article-card--image" src="static/img/022-sm.jpg" alt="">
+                                <div class="article-card-content">
+                                        <!-- Title goes here -->
+                                    <a href=""><h3 class="article-card-title">Best Grinders for 2022</h3></a>
+                                        <!-- Subtitle goes here -->
+                                    <div class="article-card-content-minor">
+                                        <a href=""><p class="article-card-subtitle">A quick guide for your daily grind!</p></a>
+                                        <div class="article-card-info">
+                                            <!-- Date goes here -->
+                                            <span class="date">Dec 28 2021</span>
+                                            <!-- Tags go here -->
+                                            <div class="tag-container">
+                                            <a href=""><span class="tag">Grinders</span></a>
+                                            <a href=""><span class="tag">Reviews</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </section>
+                    <!-- Section #2 -->
+                    <section class="article-section" >
+                        <h2 class="main-section-heading"><a href="">Culture</a></h2>
+                        <div class="default-grid grid">                    
+                            <!-- Another horizontal article card -->
+                            <div class="article-card grid stacked">
+                                    <!-- Image goes here -->
+                                <a href=""><img class="article-card--image" src="static/img/jeshoots-com-PpYOQgsZDM4-unsplash.jpg" alt=""></a>
+                                <div class="article-card-content">
+                                        <!-- Title goes here -->
+                                    <a href=""><h3 class="article-card-title">10 Movies to Watch When You're High</h3></a>
+                                        <!-- Subtitle goes here -->
+                                    <div class="article-card-content-minor">
+                                        <p class="article-card-subtitle">Best movies for couch stoners!</p>
+                                        <div class="article-card-info">
+                                            <!-- Date goes here -->
+                                            <span class="date">Jan 2 2022</span>
+                                            <!-- Tags go here -->
+                                            <div class="tag-container">
+                                            <span class="tag">Movies</span>
+                                            <span class="tag">Top-list</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                    
+                        
+                            <!-- Another horizontal article card -->
+                            <div class="horizontal-article-card grid">
+                                    <!-- Image goes here -->
+                                <a href=""><img class="article-card--image" src="static/img/WillieNelson_Seliger.jpg" alt=""></a>
+                                <div class="article-card-content">
+                                        <!-- Title goes here -->
+                                    <a href=""><h3 class="article-card-title">Living Legend - Willie Nelson</h3></a>
+                                        <!-- Subtitle goes here -->
+                                    <div class="article-card-content-minor">
+                                        <p class="article-card-subtitle">A pioneer in music, activism and weed</p>
+                                        <div class="article-card-info">
+                                            <!-- Date goes here -->
+                                            <span class="date">Jan 7 2022</span>
+                                            <!-- Tags go here -->
+                                            <div class="tag-container">
+                                            <a href=""><span class="tag">People</span></a>
+                                            <a href=""><span class="tag">Music</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <!-- Another horizontal article card -->
+                            <div class="horizontal-article-card grid">
+                                    <!-- Image goes here -->
+                                <a href=""><img class="article-card--image" src="static/img/jre.jpg" alt=""></a>
+                                <div class="article-card-content">
+                                        <!-- Title goes here -->
+                                    <a href=""><h3 class="article-card-title">10 Best Podcasts When You're High</h3></a>
+                                        <!-- Subtitle goes here -->
+                                    <div class="article-card-content-minor">
+                                        <p class="article-card-subtitle">Best podcasts for regular stoners. Roll a fat one, get cozy and put on your headphones.</p>
+                                        <div class="article-card-info">
+                                            <!-- Date goes here -->
+                                            <span class="date">Jan 1 2022</span>
+                                            <!-- Tags go here -->
+                                            <div class="tag-container">
+                                                <a href=""><span class="tag">Podcasts</span></a>
+                                                <a href=""><span class="tag">Top-list</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                    
+                        
+                            <!-- Another horizontal article card -->
+                            <div class="horizontal-article-card grid">
+                                    <!-- Image goes here -->
+                                <img class="article-card--image" src="static/img/naxatras.jpg" alt="">
+                                <div class="article-card-content">
+                                        <!-- Title goes here -->
+                                    <a href=""><h3 class="article-card-title">Stoner Rock International</h3></a>
+                                        <!-- Subtitle goes here -->
+                                    <div class="article-card-content-minor">
+                                        <a href=""><p class="article-card-subtitle">Discover the best stoner bands from around the world.</p></a>
+                                        <div class="article-card-info">
+                                            <!-- Date goes here -->
+                                            <span class="date">Dec 28 2021</span>
+                                            <!-- Tags go here -->
+                                            <div class="tag-container">
+                                            <a href=""><span class="tag">Grinders</span></a>
+                                            <a href=""><span class="tag">Reviews</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </section>
+                </div>
+                <!-- Double Section #2 -->
+                <div class="section-container grid">
+                    <!-- Section #2.1 -->
+                    <section class="article-section" >
+                        <h2 class="main-section-heading"><a href="">Guides</a></h2>
+                        <div class="default-grid grid">                    
+                            <!-- Another horizontal article card -->
+                            <div class="article-card grid stacked">
+                                    <!-- Image goes here -->
+                                <a href=""><img class="article-card--image" src="static/img/nastya-dulhiier-FiSdT1rZKH8-unsplash.jpg" alt=""></a>
+                                <div class="article-card-content">
+                                        <!-- Title goes here -->
+                                    <a href=""><h3 class="article-card-title">Travel Guide: Europe</h3></a>
+                                        <!-- Subtitle goes here -->
+                                    <div class="article-card-content-minor">
+                                        <p class="article-card-subtitle">What to do and what no do when you're trying to get high in the EU</p>
+                                        <div class="article-card-info">
+                                            <!-- Date goes here -->
+                                            <span class="date">Dec 15 2021</span>
+                                            <!-- Tags go here -->
+                                            <div class="tag-container">
+                                            <span class="tag">Guide</span>
+                                            <span class="tag">Travel</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                    
+                        
+                            <!-- Another horizontal article card -->
+                            <div class="horizontal-article-card grid">
+                                                                <!-- Image goes here -->
+                                <a href=""><img class="article-card--image" src="static/img/023-sm.jpg" alt=""></a>
+                                <div class="article-card-content">
+                                        <!-- Title goes here -->
+                                    <a href=""><h3 class="article-card-title">Getting Started with Bongs and Pipes</h3></a>
+                                    <div class="article-card-content-minor">
+                                            <!-- Subtitle goes here -->
+                                        <p class="article-card-subtitle">Complete beginner's guide to bongs, pipes and other cannabis paraphernalia</p>
+                                        <div class="article-card-info">
+                                            <!-- Date goes here -->
+                                            <span class="date">Dec 28 2021</span>
+                                            <!-- Tags go here -->
+                                            <div class="tag-container">
+                                            <a href=""><span class="tag">Bongs</span></a>
+                                            <a href=""><span class="tag">Guide</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <!-- Another horizontal article card -->
+                            <div class="horizontal-article-card grid">
+                                <!-- Image goes here -->
+                                <a href=""><img class="article-card--image" src="static/img/006-sm.jpg" alt=""></a>
+                                <div class="article-card-content">
+                                    <!-- Title goes here -->
+                                    <a href=""><h3 class="article-card-title">Cannabis for Complete Noobs</h3></a>
+                                        <!-- Subtitle goes here -->
+                                    <div class="article-card-content-minor">
+                                        <p class="article-card-subtitle">A step by step guide to get you rolling!</p>
+                                        <div class="article-card-info">
+                                            <!-- Date goes here -->
+                                            <span class="date">Dec 21 2022</span>
+                                            <div class="tag-container">
+    
+                                            <!-- Tags go here -->
+                                            <a href=""><span class="tag">Guide</span></a>
+                                            <a href=""><span class="tag">Beginner</span></a>
+                                            <a href=""><span class="tag">Cannabis</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                    
+                        
+                            <!-- Another horizontal article card -->
+                            <div class="horizontal-article-card grid">
+                                    <!-- Image goes here -->
+                                <img class="article-card--image" src="static/img/004-sm.jpg" alt="">
+                                <div class="article-card-content">
+                                        <!-- Title goes here -->
+                                    <a href=""><h3 class="article-card-title">How to Become a Licensed Grower of Medicinal Cannabis</h3></a>
+                                        <!-- Subtitle goes here -->
+                                    <div class="article-card-content-minor">
+                                        <a href=""><p class="article-card-subtitle">Get High on your own Supply!</p></a>
+                                        <div class="article-card-info">
+                                            <!-- Date goes here -->
+                                            <span class="date">Dec 28 2021</span>
+                                            <!-- Tags go here -->
+                                            <div class="tag-container">
+                                            <a href=""><span class="tag">Guide</span></a>
+                                            <a href=""><span class="tag">Law</span></a>
+                                            <a href=""><span class="tag">DIY</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </section>
+                    <!-- Section #2 -->
+                    <section class="article-section" >
+
+                        <div>
+                            <h2 class="main-section-heading"><a href="">Tags</a></h2>
+                            <div class="tag-cloud grid">
+                                <ul class="cloud">
+                                    <li><a data-weight="3"href="">Podcasts</a><span></span></li>
+                                    <li><a data-weight="10"href="">Grass</a><span></span></li>
+                                    <li><a data-weight="3"href="">Music</a><span></span></li>
+                                    <li><a data-weight="7"href="">Guide</a><span></span></li>
+                                    <li><a data-weight="5"href="">Beginner</a><span></span></li>
+                                    <li><a data-weight="6"href="">Bongs</a><span></span></li>
+                                    <li><a data-weight="4"href="">Guide</a><span></span></li>
+                                    <li><a data-weight="9"href="">Review</a><span></span></li>
+                                    <li><a data-weight="3"href="">Travel</a><span></span></li>
+                                    <li><a data-weight="4"href="">Grinders</a><span></span></li>
+                                    <li><a data-weight="6"href="">People</a><span></span></li>
+                                    <li><a data-weight="4"href="">Ganja</a><span></span></li>
+                                    <li><a data-weight="2"href="">Marijuana</a><span></span></li>
+                                    <li><a data-weight="10"href="">Cannabis</a><span></span></li>
+                                    <li><a data-weight="5"href="">Weed</a><span></span></li>
+                                    <li><a data-weight="6"href="">Stoner</a><span></span></li>
+                                    <li><a data-weight="4"href="">Junkie</a><span></span></li>
+                                    <li><a data-weight="9"href="">Hippie</a><span></span></li>
+                                    <li><a data-weight="3"href="">Green</a><span></span></li>
+                                    <li><a data-weight="10"href="">Pot</a><span></span></li>
+                                    
+                                </ul>
+                                
+
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="main-section-heading"><a href="">FAQ</a></h2>
+                            <div class="grid">                    
+                                <!-- FAQ -->
+                                <div class="gradient faq">
+                                    <a href=""><h3>What is the difference between THC and CBD?</h3></a>
+                                </div>
+                                <div class="gradient faq">
+                                    <a href=""><h3>Can I get addicted to Cannabis?</h3></a>
+                                </div>
+                                <div class="gradient faq">
+                                    <a href=""><h3>Is Cannabis effective against cancer?</h3></a>
+                                </div>
+                                <div class="gradient faq">
+                                    <a href=""><h3>Can I buy weed online?</h3></a>
+                                </div>
+                                <div class="gradient faq">
+                                    <a href=""><h3>Is Cannabis good for sleep?</h3></a>
+                                </div>
+                                <div class="gradient faq">
+                                    <a href=""><h3>Why is everything tasty when you're high?</h3></a>
+                                </div>
+                                <div class="gradient faq">
+                                    <a href=""><h3>Who killed JFK?</h3></a>
+                                </div>
+                                <div class="gradient faq">
+                                    <a href=""><h3>Are aliens real?</h3></a>
+                                </div>
+                            </div>
+                        </div>                    
+                    </section>
+
+                </div>                            
+           </div>
+        </main>
+        <footer class="footer-container">
+            <div class="footer flex container">
+                <a href="">Contact Us</a>
+                <a href="">Donate</a>
+                <a href="">Advertise</a>
+                <a href="">Privacy Policy</a>               
+            </div>
+        </footer>
+         <script src="static/js/nav.js"></script>
+    </body>
+</html>
