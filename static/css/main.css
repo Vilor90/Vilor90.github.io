@@ -89,7 +89,7 @@ body {
 /* A elements that don't have a class get default styles */
 a {
   text-decoration: none;
-  font-family: var(--ff-primary);
+  /* font-family: var(--ff-primary); */
   color: inherit;
 }
 
